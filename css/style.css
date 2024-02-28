@@ -1,0 +1,43 @@
+*{
+/* top:0;
+left:0;  */
+}
+
+.container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.container input{
+    width: 60%;
+}
+
+
+.container table{
+    width: 100%;
+    text-align: center;
+}
+
+/* .container table tbody,
+.container table thead
+{
+     display: flex;
+    gap:15px; 
+} */
+#update{
+    display: none;
+}
+
+.container table tbody tr,
+.container table     thead th{
+     padding:10px 20px;
+
+
+}    
+
+
